@@ -11,19 +11,13 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/runspired/ember-run-raf"
-  },
+  "repository": "https://github.com/runspired/ember-run-raf",
   "engines": {
     "node": ">= 0.12"
   },
   "homepage": "https://github.com/runspired/ember-run-raf",
   "bugs": "https://github.com/runspired/ember-run-raf/issues",
-  "author": {
-    "name": "Chris Thoburn (@runspired)",
-    "url": "http://runspired.com"
-  },
+  "author": "Chris Thoburn (@runspired) http://runspired.com",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
@@ -58,5 +52,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "index.js"
 }
